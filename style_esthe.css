@@ -1,0 +1,153 @@
+body{
+    background-image: url("https://i.pinimg.com/736x/40/df/12/40df12929a940447e554eb41bd5be8c1--pompidou.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(202, 21, 21);
+}
+
+h2{
+    text-align: justify;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 25px;
+}
+
+.center{
+    text-align: center;
+}
+
+.button{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 5px solid rgb(187, 121, 0);
+    font-size: 16px;
+    text-align: center;
+}
+
+.nostyle{
+    color: rgb(70, 70, 70);
+}
+
+.bg{
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+.center_bas{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.side-nav{
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
+
+.wrapper{
+    background: #333;
+    height: 100vh;
+    width: 75px;
+}
+
+.three-dots-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.dot{
+    margin: 10px 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.nav-bloc{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border-bottom: 1px solid #f2f2f21e;
+}
+
+.nav-bloc:hover{
+    background-color: rgb(24, 24, 24);
+}
+
+.sub-nav{
+    width: 200px;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: #333;
+    color: #FFF;
+    transform: translateX(-100%);
+    transition: transform 0.2s ease-in-out;
+    border-right: 2px solid #000;
+    border-left: 2px solid #000;
+}
+
+.icone{
+    height: 40px;
+    fill: #f2f2f2;
+    transition: fill 0.2s ease-in-out;
+}
+
+.icone:hover{
+    fill: rgb(0, 195, 255);
+}
+
+.nav-bloc:hover .sub-nav{
+    transform: translateX(75px);
+}
+
+.sub-nav h3{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    font-size: 15px;
+    top: 0;
+}
+
+.sub-nav ul{
+    list-style: none;
+}
+
+.sub-nav li{
+    padding: 15px 20px;
+    left: 0;
+}
+
+.sub-nav li:hover{
+    background: rgba(160, 160, 160, 0555);
+}
+
+.sub-nav li a{
+    color: #f2f2f2;
+    text-decoration: none;
+}
